@@ -37,5 +37,5 @@ func parseAllOfElement(page string, selector string) (toCache string, err error)
 	for _, e := range elements {
 		toCache = fmt.Sprintf("%v ; %v", toCache, e.Text)
 	}
-	return toCache, err
+	return
 }
